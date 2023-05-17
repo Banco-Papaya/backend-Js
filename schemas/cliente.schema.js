@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const crypto = require("crypto");
 
-const empleadoSchema = new mongoose.Schema({
+const clienteSchema = new mongoose.Schema({
   nombreCompleto: {
     type: String,
     required: true,
@@ -53,4 +53,4 @@ const empleadoSchema = new mongoose.Schema({
   ...require("./helpers/auditoria"),
 });
 
-module.exports = mongoose.model("empleado", empleadoSchema);
+module.exports = mongoose.model("cliente", clienteSchema);
