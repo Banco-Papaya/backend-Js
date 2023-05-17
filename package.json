@@ -1,0 +1,34 @@
+{
+  "name": "servicio",
+  "version": "1.0.0",
+  "description": "api para banco papaya",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx nodemon index.js"
+  },
+  "author": "Banco papaya",
+  "license": "MIT",
+  "dependencies": {
+    "@bugsnag/js": "^7.16.2",
+    "@bugsnag/plugin-express": "^7.16.2",
+    "@sendgrid/mail": "^7.4.6",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "firebase-admin": "^11.0.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.13.2",
+    "sha1": "^1.1.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.4"
+  }
+}
